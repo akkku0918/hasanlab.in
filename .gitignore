@@ -1,0 +1,15 @@
+﻿# Never publish these: originals, Word/Office files, notes, system files
+*.docx
+*.doc
+*.xlsx
+*.pptx
+*.pdf
+*.tif
+*.tiff
+*.psd
+*.heic
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+.netlify/

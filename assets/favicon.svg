@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Hasan Lab logo">
+  <defs>
+    <linearGradient id="hl-g" x1="10" y1="6" x2="52" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec5a79"/>
+      <stop offset=".6" stop-color="#b8233f"/>
+      <stop offset="1" stop-color="#7d1428"/>
+    </linearGradient>
+  </defs>
+  <!-- cell -->
+  <circle cx="32" cy="32" r="30" fill="url(#hl-g)"/>
+  <circle cx="32" cy="32" r="26.5" fill="none" stroke="#fff" stroke-opacity=".2" stroke-width="1.2"/>
+  <!-- H: two strands joined by a DNA twist -->
+  <g fill="none" stroke="#fff" stroke-linecap="round">
+    <path d="M21 17v30M43 17v30" stroke-width="5.2"/>
+    <path d="M21 27.5c8 0 14 9 22 9" stroke-width="3.6"/>
+    <path d="M21 36.5c8 0 14-9 22-9" stroke-width="3.6" stroke-opacity=".6"/>
+  </g>
+  <!-- nucleolus accent -->
+  <circle cx="50" cy="14" r="4.2" fill="#2cc3c4" stroke="#fff" stroke-width="1.6"/>
+</svg>
